@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register Form</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <div class="form-container">
+    <form action="/" class="register-form">
+      <h2>REGISTER</h2>
+      <input type="text" placeholder="Full Name" required>
+      <input type="email" placeholder="Email" required>
+      <input type="text" placeholder="Contact Number" required>
+      <input type="password" placeholder="Password" required>
+      <input type="text" placeholder="City" required>
+      
+      <select required>
+        <option value="" disabled selected>State</option>
+        <option value="State 1">State 1</option>
+        <option value="State 2">State 2</option>
+        <option value="State 3">State 3</option>
+      </select>
+
+      <label>Hobbies</label><br>
+      <label><input type="checkbox"> Reading</label>
+      <label><input type="checkbox"> Traveling</label>
+      <label><input type="checkbox"> Gaming</label><br>
+
+      <label>Gender</label><br>
+      <label><input type="radio" name="gender"> Male</label>
+      <label><input type="radio" name="gender"> Female</label>
+      <label><input type="radio" name="gender"> Other</label>
+
+      <input type="text" placeholder="Skills/Technologies" required>
+
+      <button type="submit">Register</button>
+
+      <p>Already have an account? <a href="./login.html">Login here</a></p>
+    </form>
+  </div>
+
+</body>
+</html>
